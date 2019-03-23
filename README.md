@@ -1,3 +1,3 @@
-# hotgginin
-老子雞大想分析威力彩錯了嗎
-#2019/01/15#
+# Analysis
+
+使用beautifulsoup爬蟲進行分析
