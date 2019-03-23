@@ -2,9 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import time
-yahoo = time.strftime("%Y-%m-%d", time.localtime())
+istime = time.strftime("%Y-%m-%d", time.localtime())
 while True:
-	rgy = open(yahoo+".txt", 'w')
+	rgy = open(istime+".txt", 'w')
 	resp = requests.get('網址')
 	soup = BeautifulSoup(resp.text,'html5lib')
 	#print(resp.text)
